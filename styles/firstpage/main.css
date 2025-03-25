@@ -18,13 +18,13 @@
 /*========================================START========================================================*/
 .one-product-container {
     border: 1px solid rgb(233, 233, 233);
-    width: 223px;
+    width: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px 15px;
-    
+    padding: 10px;
+    border-right: none;
 }
 
 /*---Product image container---*/
@@ -118,3 +118,18 @@
 }
 
 /*========================================END========================================================*/
+
+
+
+
+
+
+
+
+/*=============main section to be responsive=============*/
+@media screen and (max-width: 600px) {
+    .grid-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

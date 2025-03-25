@@ -24,7 +24,6 @@
     width: 100px;
     height: 40px;
     padding: 5px;
-    
     margin-right: 90px;
 }
 .amazon-loggo-container:hover {
@@ -34,6 +33,22 @@
 .amazon-loggo-container img {
     width: 90%;
 }
+
+.amazon-loggo-container1{
+    width: 65px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+.amazon-loggo-container1 img{
+    width: 35%;
+}
+
+.amazon-loggo-container1:hover {
+    border: 1px solid white;
+}
+
 /*============================================END=========================================================*/
 
 
@@ -140,3 +155,34 @@
     width: 83%;
 }
 /*============================================END=========================================================*/
+
+
+
+
+
+
+
+/*=============navigation section to be responsive=============*/
+@media screen and (max-width: 600px) {
+    
+    .amazon-loggo-container{
+        display: none;
+        margin-right: 0px;
+    }
+
+    .amazon-loggo-container1{
+        display: block;
+        width: 50px;
+        height: 35px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .amazon-loggo-container1 img{
+        width: 78%;
+    }
+
+    .cart-container{
+        display: none;
+    }
+}
