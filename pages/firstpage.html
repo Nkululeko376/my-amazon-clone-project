@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon clone</title>
     <!--The general styles-->
-    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/firstpage/general.css">
 
-    <!--The styles of all the content inside the front page of the website-->
-    <link rel="stylesheet" href="../styles/nav.css">
+    <!--The styles of all the content inside the navigation section of the page-->
+    <link rel="stylesheet" href="../styles/firstpage/nav.css">
+
+    <!--The styles of all the content inside the main section of the page-->
+    <link rel="stylesheet" href="../styles/firstpage/main.css">
 </head>
 <body>
    
     <!--========This is the navigation bar at the top==========-->
+    <!--============================START==================================-->
     <nav class="navigation-bar">
 
         <!--======This Div contains amazon loggo========-->
@@ -48,8 +52,60 @@
                 </div>
             </div>
         </a>
-       
-       
     </nav>
+    <!--============================END==================================-->
+
+
+
+
+
+    <!--========The main section==========-->
+    <!--============================START==================================-->
+    <main class="main-section">
+        <div class="grid-section">
+            <div class="one-product-container">
+                <!--*********IMAGE*********-->
+                <div class="product-img-container">
+                    <img src="../images/products/athletic-cotton-socks-6-pairs.jpg" alt="" class="img-one">
+                </div>
+                <!--********NAME********-->
+                <div class="product-name">
+                    Black and Gray Athletic Cotton Socks - 6 Pairs
+                </div>
+                <!--********RATINGS*********-->
+                <div class="ratings-container">
+                    <div class="stars-img-container">
+                        <img src="../images/ratings/rating-45.png" alt="">
+                    </div>
+                    <div class="rating-count-container">
+                        94
+                    </div>
+                </div>
+                <!--*******PRICE*******-->
+                <div class="price-container">
+                    $10.90
+                </div>
+                <!--********QUANTITY**********-->
+                <div class="product-select-quantity">
+                    <select id="selectQuantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <!--*********ADD TO CART BUTTON*********-->
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+           
+        </div>
+    </main>
+    <!--============================END==================================-->
 </body>
 </html>

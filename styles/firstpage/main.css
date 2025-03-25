@@ -1,0 +1,120 @@
+
+/*========================================START========================================================*/
+/* Styles of the div containing all elements inside the main section */
+.main-section {
+    /*border: 2px solid red;*/
+}
+
+/*========================================START========================================================*/
+/* Styles of the div that is responsible for grid layout*/
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+/*========================================END========================================================*/
+
+
+
+/*========================================START========================================================*/
+.one-product-container {
+    border: 1px solid rgb(233, 233, 233);
+    width: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 15px;
+    
+}
+
+/*---Product image container---*/
+.product-img-container {
+    /*border: 2px solid black;*/
+    width: 93%;
+}
+.product-img-container img {
+    width: 80%;
+}
+
+.product-name {
+    /*border: 2px solid red;*/
+    text-align: start;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.ratings-container {
+    /*border: 2px solid green;*/
+    display: flex;
+}
+
+.stars-img-container {
+    /*border: 2px solid red;*/
+    width: 60%;
+    padding: 2px 5px;
+}
+.stars-img-container img {
+    width: 82%;
+}
+
+.rating-count-container {
+    /*border: 2px solid blue;*/
+    padding: 2px 5px;
+    color: #017cb6;
+    font-size: 17px;
+    margin-left: -30px;
+}
+
+.price-container {
+   /*border: 2px solid blue;*/
+    width: 97%;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.product-select-quantity {
+    margin-right: auto;
+    width: 47px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+#selectQuantity{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+    border: 1px solid lightblue;
+}
+
+#selectQuantity:hover {
+    border: 2px solid rgb(252, 210, 0);
+}
+
+#selectQuantity option {
+    font-size: 18px;
+}
+
+.add-to-cart-btn {
+    margin-bottom: 10px;
+    width: 85%;
+    padding: 7px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(252, 210, 0);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: rgb(204, 173, 17);
+}
+
+/*========================================END========================================================*/
