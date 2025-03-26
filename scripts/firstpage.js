@@ -76,3 +76,5 @@ document.querySelectorAll('.add-product-to-cart').forEach( (myButton) => {
 
     });
 });
+
+

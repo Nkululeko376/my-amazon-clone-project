@@ -178,13 +178,155 @@ body {
 }
 
 .orders-item-container{
-    border: 1px solid red;
+    border: 1px solid lightgrey;
     width: 70%;
     margin: auto;
+    border-radius: 18px;
+    padding-bottom: 15px;
+    background-color: rgb(253, 253, 253);
+    margin-bottom: 40px;
+    color: rgb(33, 33, 33);
+}
+
+
+.order-top-section {
+   
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 35px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+
+        /*==========styles for the left section==============*/
+/*======================================START================================*/
+.top-left-section {
+   
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-small {
+    width: 110px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.order-placed, .order-total {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*============================END===================================*/
+
+
+
+    /*==========styles for the right section==============*/
+/*=======================START=================================*/
+.top-right-section{
+   
+}
+
+.order-id-name {
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.the-order-id-no {
+    padding: 4px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+/*============================END===================================*/
+
+
+
+
+
+
+ /*========================styles for the bottom section===========================*/
+/*====================================START============================================*/
+
+
+.order-bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 15px;
+    margin-bottom: 35px;
+}
+/*=======LEFT===========*/
+.order-bottom-left-section {
+    width: 380px;
+    padding: 4px;
+    display: flex;
+}
+.order-bottom-img {
+    width: 150px;
+}
+.order-bottom-img img {
+    width: 78%;
+}
+
+
+.order-detail-small {
+    padding: 4px;
+    font-size: 17px;
+}
+
+.order-bottom-details-name {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.order-bottom-details-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 5px;
+}
+.order-bottom-details-btn button:hover {
+    background-color: rgb(219, 184, 10);
+}
+
+.order-bottom-details-btn button img{
+    width: 25px;
+}
+.order-bottom-details-btn button span {
+    margin-left: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
 }
 
 
 
+/*=======RIGHT===========*/
+.order-bottom-right-section {
+    
+}
+
+.order-bottom-right-section button {
+    padding: 8px 55px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.order-bottom-right-section button:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+/*===========================================END===========================================*/
 
 
 
