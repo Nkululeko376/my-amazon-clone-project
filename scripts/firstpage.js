@@ -1,5 +1,5 @@
 
-////////GENERATING THE HTML CODES WITH JAVASCRIPT.
+//===============GENERATING THE HTML CODES WITH JAVASCRIPT.
 
 let myHtml = '';
 products.forEach( (product) => {
@@ -43,9 +43,31 @@ products.forEach( (product) => {
                     </select>
                 </div>
                 <!--*********ADD TO CART BUTTON*********-->
-                <button class="add-to-cart-btn">Add to Cart</button>
+                <button class="add-to-cart-btn add-product-to-cart" data-product-name="${product.name}">Add to Cart</button>
             </div>
     `;
 });
 
 document.querySelector('.js-grid-container').innerHTML = myHtml;
+
+
+//============MAKING THE ADD TO CART BUTTON INTERACTIVE
+
+document.querySelectorAll('.add-product-to-cart').forEach( (myButton) => {
+    myButton.addEventListener('click', () => {
+        //alert('Product Added')
+        const productName = myButton.dataset.productName;
+
+        myCart.push({
+            productName: productName,
+            quantity: 1
+        });
+
+        console.log(myCart);
+
+    
+      
+
+
+    });
+});

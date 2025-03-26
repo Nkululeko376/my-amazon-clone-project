@@ -525,7 +525,7 @@ const products = [
   },
   {
     id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/round-airtight-food-storage-containers.jpg",
+    image: "../images/products/round-airtight-food-storage-containers.jpg",
     name: "Round Airtight Food Storage Containers - 5 Piece",
     rating: {
       stars: 4,
