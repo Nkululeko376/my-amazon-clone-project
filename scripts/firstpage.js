@@ -58,11 +58,23 @@ document.querySelectorAll('.add-product-to-cart').forEach( (myButton) => {
         //alert('Product Added')
         const productName = myButton.dataset.productName;
 
-        myCart.push({
-            productName: productName,
-            quantity: 1
+        let matchingProductItem;
+        myCart.forEach( (item) => {
+            if( productName === item.productName ){
+                matchingProductItem = item;
+            };
         });
 
+        
+        if( matchingProductItem ){
+            matchingProductItem.quantity += 1;
+        }
+        else{
+            myCart.push({
+                productName: productName,
+                quantity: 1
+            });
+        }
         console.log(myCart);
 
     
