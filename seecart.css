@@ -1,0 +1,171 @@
+
+body {
+   padding: 0px 85px;
+   margin: 0px;
+   height: 1500px;
+}
+
+
+            /*============The styles of the navigation bar==============*/
+/*========================================START========================================================*/
+.view-cart-navigation {
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.view-cart-loggo-container {
+    width: 110px;
+    padding: 7px 2px;
+}
+
+.view-cart-loggo-container img {
+    width: 80%;
+}
+
+.checkout-details-main {
+    display: flex;
+    width: 230px;
+    margin-left: -52px;
+    justify-content: center;
+}
+
+.checkout-div1 {
+    width: 98px;
+    font-size: 1.5em;
+}
+
+.checkout-div2 {
+    width: 120px;
+    font-size: 1.4em;
+    
+}
+
+.checkout-div2 span {
+    color: rgb(0, 113, 133);
+    cursor: pointer;
+}
+
+.checkout-div2 a {
+    text-decoration: none;
+}
+
+.checkout-top-right {
+    width: 50px;
+    text-align: center;
+}
+
+.checkout-top-right img {
+    width: 35%;
+}
+
+/*========================================END========================================================*/
+
+
+
+
+
+
+.bottom-product-in-cart-main {
+    border: 4px solid blue;
+    margin-top: 185px;
+    
+    
+}
+
+.main-child {
+    border: 2px solid red;
+    display: flex;
+}
+
+.order-review-details-right {
+    border: 2px solid green;
+    width: 65%;
+}
+
+.delivery-date-container {
+    border: 2px solid yellow;
+}
+
+.layout-container {
+    border: 2px solid blueviolet;
+    display: flex;
+}
+
+.order-review-img-container {
+    border: 2px solid black;
+    width: 100px;
+   
+}
+
+.order-review-img-container img{
+    width: 95%;
+}
+
+
+.order-review-product-name-price {
+    border: 2px solid greenyellow;
+    width: 270px;
+}
+
+.div1-pro-name {
+    border: 1px solid red;
+}
+
+.div2-pro-price {
+    border: 1px solid blue;
+}
+
+.div3-pro-quantity {
+    border: 1px solid red;
+}
+
+.choose-del-tt {
+    border: 2px solid black;
+}
+
+.del-date-main-box {
+    border: 2px solid red;
+    display: flex;
+}
+.del-date-and-option-main {
+    border: 2px solid black;
+}
+
+.div-choose-del-date {
+    border: 2px solid red;
+}
+
+.div-for-free-shipping {
+    border: 2px solid green;
+}
+
+
+.order-review-prices {
+    border: 3px solid black;
+    
+}
+
+.order-sum-tt {
+    border: 2px solid red;
+}
+
+.payment-summary-main-container {
+    border: 2px solid green;
+    display: flex;
+}
+
+
+.payment-sum-name {
+    border: 2px solid yellow;
+}
+
+.payment-item-price {
+    border: 2px solid blue;
+}

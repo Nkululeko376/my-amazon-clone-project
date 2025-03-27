@@ -15,6 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navigation-bar a {
@@ -167,10 +171,7 @@ body {
 
 /*====================Main section styles==================*/
 
-.orders-main-section {
-    border: 3px solid blue;
-    
-}
+
 
 .orders-heading {
     font-size: 1.7em;
@@ -327,6 +328,7 @@ body {
 }
 
 /*===========================================END===========================================*/
+
 
 
 
