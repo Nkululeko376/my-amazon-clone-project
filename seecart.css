@@ -4,6 +4,7 @@ body {
    margin: 0px;
    height: 1500px;
    font-family: 'Roboto', sans-serif;
+   color: rgb(33, 33, 33);
 }
 
 
@@ -39,6 +40,7 @@ body {
 .checkout-div1 {
     width: 98px;
     font-size: 1.5em;
+    margin-right: 7px;
 }
 
 .checkout-div2 {
@@ -73,36 +75,42 @@ body {
 
 
 .bottom-product-in-cart-main {
-    border: 4px solid blue;
+    /*border: 4px solid blue;*/
     margin-top: 160px;
     
     
 }
 
 .main-child {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
+    
 }
 
 .order-review-details-right {
-    border: 2px solid green;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 6px;
     width: 65%;
+    margin-right: 15px;
+    padding: 10px;
+    height: 250px;
+    
 }
 
 .delivery-date-container {
-    border: 2px solid yellow;
     color: rgb(0, 118, 0);
     font-weight: 700;
     font-size: 19px;
+    padding: 15px;
 }
 
 .layout-container {
-    border: 2px solid blueviolet;
+    /*border: 2px solid blueviolet;*/
     display: flex;
 }
 
 .order-review-img-container {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 100px;
    
 }
@@ -113,62 +121,136 @@ body {
 
 
 .order-review-product-name-price {
-    border: 2px solid greenyellow;
+    /*border: 2px solid greenyellow;*/
     width: 270px;
 }
 
 .div1-pro-name {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .div2-pro-price {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    padding: 10px 0px;
 }
 
 .div3-pro-quantity {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    padding: 6px;
+}
+
+.the-two-spans {
+    cursor: pointer;
+    color: #017cb6;
+}
+
+.the-two-spans:hover {
+    color: orangered;
 }
 
 .choose-del-tt {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    font-weight: 700;
+    padding: 6px;
 }
 
 .del-date-main-box {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
+    width: 320px;
+    margin-bottom: 4px;
+}
+
+.del-date-main-box input {
+    width: 20px;
+    cursor: pointer;
 }
 .del-date-and-option-main {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    width: 100%;
 }
 
 .div-choose-del-date {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+    color: rgb(0, 118, 0);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    
 }
 
 .div-for-free-shipping {
-    border: 2px solid green;
+    /*border: 2px solid green;*/
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+    padding: 3px;
 }
 
 
 .order-review-prices {
-    border: 3px solid black;
-    
+    border: 1px solid rgb(205, 205, 205);
+    width: 370px;
+    border-radius: 5px;
+    padding: 15px;
 }
 
 .order-sum-tt {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+    font-size: 18px;
+    padding: 7px 4px;
+    font-weight: 700;
+}
+
+.sum-sum-sum {
+    font-size: 15px;
+    
 }
 
 .payment-summary-main-container {
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+    margin-bottom: 9px;
 }
 
 
 .payment-sum-name {
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 
 .payment-item-price {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+}
+
+.total-c {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(177, 39, 4);
+}
+
+.place-order-button-div {
+    text-align: center;
+    /*border: 2px solid red;*/
+    padding: 7px;
+}
+
+.place-order-button-div button{
+    width: 300px;
+    padding: 8px;
+    color: white;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.place-order-button-div button:hover {
+    background-color: rgb(194, 165, 18);
+    color: rgb(33, 33, 33);
 }
