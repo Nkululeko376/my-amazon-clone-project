@@ -1,0 +1,301 @@
+
+body {
+    padding: 78px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 33, 33);
+}
+
+
+
+/*========================================START========================================================*/
+/*Navigation bar styles*/
+.navigation-bar {
+    background-color: black;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+}
+/*============================================END=========================================================*/
+
+
+
+
+/*========================================START========================================================*/
+/* div containing the amazon loggo image styles*/
+.amazon-loggo-container {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 90px;
+}
+.amazon-loggo-container:hover {
+    border: 1px solid white;
+}
+/*the styles of the loggo image*/
+.amazon-loggo-container img {
+    width: 90%;
+}
+
+.amazon-loggo-container1{
+    width: 65px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+.amazon-loggo-container1 img{
+    width: 35%;
+}
+
+.amazon-loggo-container1:hover {
+    border: 1px solid white;
+}
+
+/*============================================END=========================================================*/
+
+
+
+
+
+/*========================================START========================================================*/
+/*Styles of the Div that contains the search bar*/
+.search-bar-container {
+    /*border: 1px solid rgb(204, 0, 0);*/
+    display: flex;
+    flex: 1;
+    height: 42px;
+    margin-right: 45px;
+}
+.search-bar-container input {
+    flex: 1;
+    border: none;
+    padding-left: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    
+}
+::placeholder{
+    color: gray;
+}
+
+.search-bar-container button {
+    width: 50px;
+    background-color: rgb(254, 189, 105);
+    border: none;
+    margin-left: -3px;
+    border-radius: 3px;
+}
+.search-bar-container img {
+    width: 70%;
+}
+/*============================================END=========================================================*/
+
+
+
+
+
+/*========================================START========================================================*/
+/*Styles of the Div that containis the option of view orders & return orders*/
+.view-return-orders {
+    color: white;
+    padding: 6.5px;
+    cursor: pointer;
+}
+
+.view-return-orders:hover {
+    border: 1px solid white;
+}
+
+.view-return-orders p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.view-return-orders span {
+    
+    font-weight: 900;
+}
+/*============================================END=========================================================*/
+
+
+
+
+
+
+/*========================================START========================================================*/
+/*Styles of the Div that contains the cart options*/
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.cart-container:hover{
+    border: 1px solid white;
+}
+
+.view-cart {
+    /*border: 1px solid blue;*/
+    color: rgb(240, 136, 4);
+    width: 10px;
+    padding: 0px 3px;
+    position: absolute;
+    top: 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.cart-icon-container {
+    width: 80%;
+   
+}
+
+.cart-icon-container img {
+    width: 85%;
+}
+/*============================================END=========================================================*/
+
+
+
+.main-section-tracking {
+    /*border: 5px solid black;*/
+    padding: 15px 190px;
+}
+
+.tracking-view-all-order{
+    /*border: 2px solid red;*/
+    padding: 8px;
+}
+
+.tracking-view-all-order a{
+    color: #017cb6;
+}
+
+.tracking-view-all-order a:hover {
+    color: rgb(214, 143, 10);
+}
+
+.tracking-quantity {
+    /*border: 2px solid blueviolet;*/
+    font-size: 16px;
+    padding: 8px;
+}
+
+.tracking-del-dat {
+    /*border: 2px solid green;*/
+    font-size: 25px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.tracking-product-name {
+    /*border: 2px solid blue;*/
+    font-size: 16px;
+    padding: 8px;
+}
+
+.tracking-product-image {
+    /*border: 2px solid yellow;*/
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.tracking-product-image img{
+    width: 80%;
+}
+
+.tracking-range-main {
+    padding: 8px;
+}
+
+.tracking-the-names {
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tracking-the-names-small {
+    /*border: 1px solid black;*/
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.track-shipping-container {
+    border: 1px solid lightgray;
+    height: 22px;
+    border-radius: 20px;
+}
+
+.track-shipping {
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+    width: 100%;
+}
+
+
+
+.track-shipping2 {
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+    width: 5%;
+}
+
+.track-shipping3 {
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    border: none;
+    width: 45%;
+}
+
+
+
+
+
+
+
+/*=============navigation section to be responsive=============*/
+@media screen and (max-width: 600px) {
+    
+    .amazon-loggo-container{
+        display: none;
+        margin-right: 0px;
+    }
+
+    .amazon-loggo-container1{
+        display: block;
+        width: 50px;
+        height: 35px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .amazon-loggo-container1 img{
+        width: 78%;
+    }
+
+    .cart-container{
+        display: none;
+    }
+}
+
+
+

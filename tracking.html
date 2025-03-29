@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Order</title>
+    <link rel="stylesheet" href="./tracking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!--========This is the navigation bar at the top==========-->
+    
+   <!--============================START==================================-->
+
+    <nav class="navigation-bar">
+        <!--======This Div contains amazon loggo========-->
+            <div class="amazon-loggo-container">
+                <a href="./pages/firstpage.html">
+                    <img src="./images/amazon-logo-white.png" alt="amazon-loggo" class="amazon-loggo-img">
+                </a>
+            </div>
+            <div class="amazon-loggo-container1">
+                <a href="">
+                    <img src="../images/amazon-mobile-logo-white.png" alt="amazon-loggo" class="amazon-loggo-img">
+                </a>
+            </div>
+           
+        
+        <!--=========This Div contain the search bar================-->
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search">
+            <button class="search-icon-btn"><img src="../images/icons/search-icon.png" alt="" class="search-icon"></button>
+        </div>
+
+        <!--==========This div contain the option of view orders & return orders-->
+        <a href="./pages/vieworder.html">
+            <div class="view-return-orders">
+                <p>Returns</p>
+                <span>& Orders</span>
+            </div>
+        </a>
+        
+
+        <!--=========This Div contain the cart options=========-->
+        <a href="./seecart.html">
+            <div class="cart-container">
+                <div class="view-cart js-view-cart">0</div>
+                <div class="cart-icon-container">
+                    <img src="./images/icons/cart-icon.png" alt="" class="cart-icon">
+                </div>
+            </div>
+        </a>
+    </nav>
+    <!--============================END==================================-->
+
+
+    <main class="main-section-tracking">
+       <div class="tracking-view-all-order">
+         <a href="">View all orders</a>
+       </div>
+       <div class="tracking-del-dat">Delivered on Wednesday, March 26</div>
+       <div class="tracking-product-name">Intermediate Size Basketball</div>
+       <div class="tracking-quantity">Quantity: <span>6</span></div>
+       <div class="tracking-product-image">
+            <img src="./images/products/intermediate-composite-basketball.jpg" alt="">
+       </div>
+       <div class="tracking-range-main">
+        <div class="tracking-the-names">
+            <div class="tracking-the-names-small">Preparing</div>
+            <div class="tracking-the-names-small">Shipped</div>
+            <div class="tracking-the-names-small">Delivered</div>
+        </div>
+        <div class="track-shipping-container">
+            <div class="track-shipping">
+
+            </div>
+        </div>
+       </div>
+    </main>
+</body>
+</html>
