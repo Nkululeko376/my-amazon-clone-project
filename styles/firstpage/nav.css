@@ -30,12 +30,18 @@
     padding: 5px;
     margin-right: 90px;
 }
+
+.amazon-loggo-container a {
+    text-decoration: none;
+}
+
 .amazon-loggo-container:hover {
     border: 1px solid white;
 }
 /*the styles of the loggo image*/
 .amazon-loggo-container img {
     width: 90%;
+    border: none;
 }
 
 .amazon-loggo-container1{
